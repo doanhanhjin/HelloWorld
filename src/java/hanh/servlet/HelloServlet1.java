@@ -1,4 +1,4 @@
-/*
+﻿/*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
@@ -53,7 +53,7 @@ public class HelloServlet1 extends HttpServlet {
             
             out.println("<h1>Gía trị "+ user +"<h1/>");
             out.println("<h1>Chào bạn "+ password +"<h1/>");
-            
+            out.println("<h1>Chào bạn. HIHIHI"+ password +"<h1/>");
             out.println("</body>");
             out.println("</html>");
         }
